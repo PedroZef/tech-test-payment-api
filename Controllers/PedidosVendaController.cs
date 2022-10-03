@@ -14,6 +14,7 @@ namespace tech_test_payment_api.Controllers
         public PedidosVendaController(VendasContext context){
             this.context = context;
         }
+        
 
         [HttpGet]
         public IActionResult ObterTodosPedidos(){
